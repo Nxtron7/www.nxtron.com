@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    height: 50vh;
+    width: 100%;
+    background-image: url(cars.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.topnav {
+    height: 80px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.topnav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.topnav ul li a {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    margin-right: 50px;
+    padding: 10px;
+}
+
+.topnav ul li a:hover {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.6s;
+}
+
+.logo img {
+    height: 50px;
+    margin-left: 30px;
+}
+
+@media (max-width: 628px) {
+    .header {
+        width: 260%;
+    }
+    .main {
+        width: 160%;
+    }
+    .footer {
+        width: 260%;
+    }
+    .hd h1 {
+        margin-left: 370px;
+    }
+}
+
+.cont-1 h1 {
+    color: white;
+    font-size: 50px;
+    margin-top: 70px;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.main {
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 120px;
+}
+
+.hd h1 {
+    font-size: 50px;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.img-1 {
+    height: 200px;
+    border-radius: 6px;
+}
+
+.main p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.main-2 {
+    margin-top: 100px;
+    background-color: white;
+    margin-right: 120px;
+}
+
+.main h3 {
+    font-size: 30px;
+}
+
+.main-2 h3 {
+    font-size: 30px;
+}
+
+.main-2 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.cntr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    height: 40vh;
+    background-color: gray;
+}
+
+.footer h3 {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main-3 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.main-3 h3 {
+    font-size: 30px;
+}
+
+.main-4 h3 {
+    font-size: 30px;
+}
+
+.main-4 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.cntr-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-3 {
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 120px;
+}
+
+.main-4 {
+    background-color: white;
+    margin-top: 100px;
+    margin-right: 120px;
+}
+
+.footer h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-decoration: underline;
+    font-style: italic;
+}
